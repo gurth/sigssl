@@ -87,7 +87,7 @@ python src/train.py ctdet \
 
 ### Additional Comparisons：
 
-We extend **DETR** and **Deformable DETR** for time-domain signal detection. Their implementations can be found in: src/cmps/sigdetreg. Please refer to the `README.md` in that directory for detailed usage.
+We extend **DETR** and **Deformable DETR** for time-domain signal detection. Their implementations can be found in: `src/cmps/sigdetreg`. Please refer to the `README.md` in that directory for detailed usage.
 
 You can also pre-train using other self-supervised methods:
 
