@@ -35,9 +35,6 @@ def set_model_defaults(args):
             setattr(args, k, defaults[k])
     return args
 
-def set_dataset_path(args):
-    args.rod_path = os.path.join(args.data_root, 'rod')
-
 class args(object):
     def __init__(self):
         parser = argparse.ArgumentParser()
@@ -171,7 +168,6 @@ class args(object):
 
     def parse(self):
         args = self.parser.parse_args()
-        set_dataset_path(args)
         args = set_model_defaults(args)
 
         if args.output_dir:

@@ -1,0 +1,6 @@
+tqdm
+cython
+scipy
+opencv-contrib-python
+pandas
+seaborn
