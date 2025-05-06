@@ -119,6 +119,10 @@ python src/train.py TC \
     --batch_size 8
 ```
 
+## Notes
+- The implementation of **Algorithm 1: Signal Selective Search** (as described in the paper) can be found in:  `src/datasets/sample/proposals/ss`.
+- The utilities for computing **one-dimensional Intersection over Union (1D IoU)** and **Average Precision (AP)** used in our experiments are located in:  `src/datasets/utils`.
+
 ## Acknowlegments
 
 We gratefully acknowledge the contributions of the open-source projects referenced in our work.
